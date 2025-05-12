@@ -1,0 +1,60 @@
+<diagram program="umletino" version="15.1"><zoom_level>6</zoom_level><element><id>Relation</id><coordinates><x>828</x><y>74</y><w>18</w><h>816</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;1340</additional_attributes></element><element><id>Relation</id><coordinates><x>936</x><y>74</y><w>18</w><h>816</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;1340</additional_attributes></element><element><id>Relation</id><coordinates><x>1050</x><y>74</y><w>18</w><h>816</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;1340</additional_attributes></element><element><id>UMLActor</id><coordinates><x>1038</x><y>20</y><w>36</w><h>66</h></coordinates><panel_attributes>Militaria
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>924</x><y>20</y><w>36</w><h>66</h></coordinates><panel_attributes>Corpo
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>816</x><y>20</y><w>36</w><h>66</h></coordinates><panel_attributes>AGI
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>74</y><w>18</w><h>816</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;1340</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>672</x><y>44</y><w>108</w><h>36</h></coordinates><panel_attributes>między planetarna
+mobilna stacja 
+odwiertnicza
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>828</x><y>122</y><w>12</w><h>702</h></coordinates><panel_attributes>
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>936</x><y>92</y><w>12</w><h>30</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>720</x><y>338</y><w>12</w><h>414</h></coordinates><panel_attributes>
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1050</x><y>284</y><w>12</w><h>30</h></coordinates><panel_attributes>
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>834</x><y>110</y><w>114</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+Potrzeba surowców
+strategicznych</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>326</y><w>114</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+Dojedz do
+wyznaczonego miejsca</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>386</y><w>114</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+Rozpocznij wydobywanie</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>612</x><y>188</y><w>120</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+Zbadaj teren pod kątem
+surowców strategicznych</panel_attributes><additional_attributes>10;20;180;20</additional_attributes></element><element><id>Relation</id><coordinates><x>834</x><y>272</y><w>228</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+                                                      zbombarduj 
+                                                     wyznaczone miejsce</panel_attributes><additional_attributes>360;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>350</y><w>114</w><h>30</h></coordinates><panel_attributes>lt=&lt;-
+odpowiedz zwrotna
+(dojechałem)</panel_attributes><additional_attributes>170;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>558</x><y>44</y><w>108</w><h>36</h></coordinates><panel_attributes>Sądy
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>606</x><y>74</y><w>18</w><h>816</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;1340</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>606</x><y>200</y><w>12</w><h>24</h></coordinates><panel_attributes>
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>612</x><y>212</y><w>120</w><h>30</h></coordinates><panel_attributes>lt=&lt;-
+Znaleziono surowce 
+albo życie</panel_attributes><additional_attributes>180;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>834</x><y>302</y><w>228</w><h>24</h></coordinates><panel_attributes>lt=&lt;-
+                                                        teren czysty</panel_attributes><additional_attributes>10;20;360;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>774</x><y>266</y><w>300</w><h>60</h></coordinates><panel_attributes>Alternative
+IF LIVE
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>428</y><w>114</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+maksymalna ilość
+zmagazynowanego 
+minerału</panel_attributes><additional_attributes>170;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>158</y><w>114</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+wyprodukuj i wyślij
+sądy na zwiad</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>236</y><w>114</w><h>30</h></coordinates><panel_attributes>lt=&lt;-
+Znaleziono surowce 
+albo życie</panel_attributes><additional_attributes>170;20;10;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>654</x><y>422</y><w>312</w><h>180</h></coordinates><panel_attributes>Alternative
+MAX CAPACITY
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>834</x><y>506</y><w>114</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+zapytanie czy dana
+ilość surowców jest
+wystarczająca</panel_attributes><additional_attributes>170;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>458</y><w>114</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+wystrzel surowce</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>488</y><w>114</w><h>24</h></coordinates><panel_attributes>lt=&lt;-
+wystrzelono</panel_attributes><additional_attributes>170;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>834</x><y>548</y><w>114</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+NIE</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>578</y><w>114</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+wydobywaj dalej surowce</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>720</x><y>170</y><w>12</w><h>78</h></coordinates><panel_attributes>
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>936</x><y>518</y><w>12</w><h>42</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>608</y><w>114</w><h>30</h></coordinates><panel_attributes>lt=&lt;-
+Koniec złoża
+</panel_attributes><additional_attributes>170;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>632</y><w>114</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+wystrzel surowce</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>656</y><w>114</w><h>24</h></coordinates><panel_attributes>lt=&lt;-
+wystrzelono</panel_attributes><additional_attributes>170;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>834</x><y>680</y><w>114</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+zapytanie czy dana
+ilość surowców jest
+wystarczająca</panel_attributes><additional_attributes>170;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>834</x><y>722</y><w>114</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+TAK</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>936</x><y>692</y><w>12</w><h>108</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>740</y><w>114</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+zkończ wydobywanie</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>834</x><y>788</y><w>114</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+NIE</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>468</x><y>146</y><w>372</w><h>690</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>120;10;10;10;10;1130;600;1130</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>540</x><y>152</y><w>546</w><h>624</h></coordinates><panel_attributes>LOOP</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>774</x><y>782</y><w>186</w><h>66</h></coordinates><panel_attributes>alternative
+NIE
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element></diagram>
