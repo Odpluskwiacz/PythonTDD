@@ -1,0 +1,120 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{float} % Pakiet pozwalający na użycie specyfikatora H
+\usepackage[polish]{babel} % Polish language support
+\usepackage[T1]{fontenc} % Font encoding
+\usepackage[utf8]{inputenc} % To ensure UTF-8 encoding
+\usepackage{geometry} % For page layout
+\geometry{a4paper, margin=1in} % Set page size and margins
+\usepackage{minted} % Wstawianie sformatowanego Kodu
+\usepackage{hyperref}  % Pakiet do tworzenia odnośników
+
+
+\title{Inżynieria Oprogramowania - Projekt Aplikacji}
+\author{Michal.bralski , Stanisław Kuzia }
+\date{May 2025}
+
+\begin{document}
+
+\maketitle
+
+\section{Wprowadzenie}
+Celem projektu było stworzenie poglądowego działania między planetarna mobilnej stacji odwiertniczej, której zadaniem jest wydobycie zlokalizowanie oraz wysyłka surowców 
+
+\section{Struktury aplikacji}
+Aplikacja składa się z trzech głownych klas
+\begin{enumerate}
+    \item AGI - Artificial General Inteligence
+    \item Corpo - Odpowiada za manualne nadpisanie komendy wysłania surowców oraz pobiera dane z sądy odkrywczej w celach komercyjnych
+    \item Militaria - Odpowiada za detonację ładunku strategicznego oraz pobiera dane z sądy odkrywczej
+\end{enumerate}
+
+\section{Funkcjonalność}
+Główne założenia systemu wspomaganego syntetycznym rozumowaniem.
+    \begin{enumerate}
+        \item Dokonywanie odwiertów w celu pozyskania złóż i zadowoleniu udziałowców.
+        \item fabrykowanie sąd w celach naukowo-komercyjnej eksploracji przestrzeni kosmicznej.
+        \item Poszukiwanie nowych złóż strategicznych ku dobrobycie rasy ludzkiej.
+        \item Logistyczne przygotowanie oraz wysyłka surowców nierafinerowanych
+        \item Strategiczne eliminowanie celów xenologicznych.
+    \end{enumerate}
+
+
+\section{Wybrane funkcje i ich testy}
+
+\subsubsection{drillStatus\{Bool\}}
+\begin{enumerate}
+    \item CheckTemp
+    \item CheckRotation
+    \item CheckHardnes
+    \item CheckMandatoryMaitanceDate
+\end{enumerate}
+
+\subsubsection{FabricatorStatus\{float\}}
+\begin{enumerate}
+    \item CheckMandatoryMaitanceDate
+    \item CheckAutonomusWeelding
+    \item CheckOreDeposit
+    \item CheckFabricatorFailSafe
+    \item CheckFumeeExhaus
+\end{enumerate}
+
+\subsubsection{TelemetryStatus\{bool\}}
+\begin{enumerate}
+    \item CheckInterstalarLink
+    \item CheckTeleRangeLink
+    \item CheckInsiders6GConection
+    \item CheckModbusStatus
+    \item CheckPlanetarLauncher
+\end{enumerate}
+
+\subsubsection{TacticialMisleTest\{bool\}}
+
+\begin{enumerate}
+    \item CheckUraniumHalf-Life
+    \item CalibrateMissle
+    \item CheckTruster
+    \item FabricateMissingMissiles
+    \item DisposeDettiretedCores
+\end{enumerate}
+
+\subsubsection{LogisticDepartmentStatus\{int\}}
+
+\begin{itemize}
+    \item HaulingEquipmentStatus
+    \item ScrapYardCappStatus
+    \item ScrappingFurnaceStatus
+    \item ScrappingBeaconStatus
+    \item RaylCannoStatus
+\end{itemize}
+
+
+\section{Diagram UML}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\linewidth]{Przypadkow.png}
+\caption{\label{fig:1} Diagram Przypadków Użycia}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\linewidth]{Aktywnosc.png}
+\caption{\label{fig:2} Diagram Aktywności}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\linewidth]{Sekwencji.png}
+\caption{\label{fig:1} Diagram Sekwencji}
+\end{figure}
+
+\section{Wnioski}
+Zrealizowany projekt umożliwił praktyczne zastosowanie podstawowych
+zagadnień związanych z programowaniem oraz testowaniem jednostkowym.
+Struktura kodu została zaprojektowana w sposób modularny, co ułatwia jego dalszą rozbudowę i
+utrzymanie. Dodatkowo, przygotowane testy jednostkowe pomogły w weryfikacji
+poprawności działania kluczowych metod oraz umożliwiły wychwycenie ewentualnych błędów
+na etapie tworzenia aplikacji.
+
+\end{document}
